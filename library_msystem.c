@@ -262,8 +262,8 @@ void loadBooksFromFile(struct Book** head, const char* filename) {
 
 
 int main() {
-    struct User* userList = NULL; // Initialize empty user list
-    struct Book* library = NULL; // Initialize empty book library
+    struct User* userList = NULL;
+    struct Book* library = NULL; 
 
     char username[50];
     char password[50];
